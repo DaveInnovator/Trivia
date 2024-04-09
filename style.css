@@ -134,3 +134,56 @@ form input::placeholder {
         margin: 21% auto 0;
     }
 }
+
+
+@media only screen and (max-width: 480px) {
+    .hero{
+        padding: 10px 5%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .content {
+        margin: 3% auto 0;
+    }
+
+    .content h1 {
+        font-size: 45px;
+    }
+
+    .content p{
+        font-size: 18px;
+    }
+
+    form {
+        height: 55px;
+        margin-top: 20px;
+    }
+
+    form input{
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    form .btn {
+        padding: 0;
+        width: 120px;
+        height: 55px;
+        border-radius: 27px;
+    }
+
+    form input::placeholder {
+        font-size: 13px;
+    }
+}
