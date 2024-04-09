@@ -108,15 +108,17 @@ form input::placeholder {
     }
     .hero {
         padding: 10px 5%;
+        min-height: 90vh;
     }
     .logo {
-        width: 30%;
+        width: 40%;
     }
     .content h1 {
-        font-size: 45px;
+        font-size: 56px;
+        font-weight: 900;
     }
     .content p {
-        font-size: 10px;
+        font-size: 15px;
     }
     form {
         display: flex;
@@ -128,11 +130,11 @@ form input::placeholder {
         margin-bottom: 10px;
     }
     form input {
-        padding: 5px 5px;
+        padding: 10px 10px;
         font-size: 14px;
     }
     form .btn {
-        width: 105px;
+        width: 100%;
         height: 100px;
         margin-top: 20%;
         padding: 10px 16px;
