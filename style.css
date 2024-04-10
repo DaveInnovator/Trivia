@@ -101,47 +101,55 @@ form input::placeholder {
 
 
 
-
 @media only screen and (max-width: 768px) {
-    .btn {
+    /* Reduce the font size of the.content h1 element */
+ .content h1 {
+        font-size: 56px;
+    }
+
+    /* Reduce the padding of the.btn element */
+ .btn {
         padding: 10px 20px;
     }
-    .hero {
-        padding: 10px 5%;
-        min-height: 90vh;
-    }
-    .logo {
+
+    /* Reduce the width of the.logo element */
+ .logo {
         width: 40%;
     }
-    .content h1 {
-        font-size: 56px;
-        font-weight: 900;
-    }
-    .content p {
+
+    /* Reduce the font size of the.content p element */
+ .content p {
         font-size: 15px;
     }
+
+    /* Modify the form element to display as a flex row */
     form {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 90%;
         max-width: 400px;
         height: 55px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
+
+    /* Modify the form input element to reduce padding and font size */
     form input {
         padding: 10px 10px;
         font-size: 14px;
+        flex: 1;
     }
-    form .btn {
-        width: 100%;
-        height: 100px;
-        margin-top: 20%;
+
+    /* Modify the form.btn element to take up the remaining width of the form */
+    form.btn {
+        width: auto;
+        height: 55px;
+        margin-top: 0;
         padding: 10px 16px;
     }
-    .content{
+
+    /* Modify the.content element to adjust margin */
+ .content{
         margin: 21% auto 0;
     }
 }
-
-
