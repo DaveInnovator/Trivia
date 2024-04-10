@@ -108,7 +108,7 @@ form input::placeholder {
     }
     .hero {
         padding: 10px 5%;
-        min-height: 90vh;
+        min-height: 100vh;
     }
     .logo {
         width: 40%;
