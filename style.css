@@ -153,7 +153,7 @@ form input::placeholder {
     width: 0;
     height: 0;
     /* Adjust as needed */
-    margin: 2px -59%; /* Adjust as needed */
+    margin: 1px -59%; /* Adjust as needed */
   }
 
 
