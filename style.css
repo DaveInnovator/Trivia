@@ -106,7 +106,9 @@ form input::placeholder {
     justify-content: start;
     margin:-20px 6%;
 }
-
+.img img {
+    margin-top: 40%;
+}
 
 @media only screen and (max-width: 768px) {
     .btn {
@@ -150,12 +152,14 @@ form input::placeholder {
     }
    
   .img {
-    width: 0;
-    height: 0;
+    width: 100%;
+    height: 10px;
     /* Adjust as needed */
-    margin: 1px -59%; /* Adjust as needed */
+    margin: 1px -60%; /* Adjust as needed */
   }
-
+  .img img {
+    margin-top: 10%;
+}
 
 }
 
